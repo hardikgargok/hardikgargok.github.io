@@ -208,6 +208,42 @@ h3 {
   text-transform: uppercase;
 }
 
+.views-section {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 10px clamp(18px, 5vw, 72px) clamp(54px, 8vw, 90px);
+}
+
+.views-card {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 16px;
+  min-width: 230px;
+  padding: 18px 24px;
+  background: linear-gradient(145deg, #151816, #0f1110);
+  border: 1px solid rgba(244, 246, 241, 0.16);
+  border-radius: 24px;
+  box-shadow:
+    0 22px 54px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.views-label {
+  color: #a8b1aa;
+  font-family: "Permanent Marker", "Comic Sans MS", cursive;
+  font-size: clamp(24px, 3vw, 36px);
+  line-height: 1;
+  text-transform: lowercase;
+}
+
+.views-number {
+  color: #f4f6f1;
+  font-size: clamp(34px, 5vw, 58px);
+  font-weight: 800;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
 .work-script-heading {
   margin: 0;
   color: #f7f7f7;
