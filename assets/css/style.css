@@ -257,8 +257,9 @@ h3 {
 
 .work-card p {
   color: #f1f3ef;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-  font-size: clamp(36px, 4.4vw, 56px);
+  font-family: "Comic Neue", "Comic Sans MS", "Comic Sans", cursive;
+  font-size: clamp(42px, 5vw, 64px);
+  font-weight: 700;
   line-height: 1;
   margin-bottom: 0;
   text-transform: lowercase;
