@@ -1,11 +1,12 @@
 :root {
-  --bg: #f6f7f2;
-  --surface: #ffffff;
-  --text: #1f2523;
-  --muted: #5f6b66;
-  --line: #d9ded7;
+  color-scheme: dark;
+  --bg: #050806;
+  --surface: #111312;
+  --text: #f4f6f1;
+  --muted: #a8b1aa;
+  --line: #26302b;
   --blue: #2457d6;
-  --green: #12715b;
+  --green: #dfe8df;
   --yellow: #f2c94c;
   --shadow: 0 18px 45px rgba(35, 42, 39, 0.12);
 }
@@ -39,7 +40,7 @@ a {
   justify-content: space-between;
   gap: 20px;
   padding: 18px clamp(18px, 5vw, 72px);
-  background: rgba(246, 247, 242, 0.92);
+  background: rgba(5, 8, 6, 0.92);
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(14px);
 }
@@ -177,7 +178,7 @@ h3 {
 
 .about-script {
   margin: 0 0 34px;
-  color: #1f2024;
+  color: #f4f6f1;
   font-family: "Permanent Marker", "Comic Sans MS", cursive;
   font-size: clamp(34px, 6vw, 62px);
   line-height: 1;
@@ -191,18 +192,18 @@ h3 {
 }
 
 .about-statement {
-  color: #f5f5f5;
+  color: #050806;
   font-family: "Fredericka the Great", Impact, fantasy;
   font-size: clamp(38px, 8vw, 92px);
   font-weight: 400;
   line-height: 1.08;
   letter-spacing: 0;
   text-shadow:
-    2px 0 #22252a,
-    -2px 0 #22252a,
-    0 2px #22252a,
-    0 -2px #22252a,
-    4px 4px 0 #22252a;
+    2px 0 #f4f6f1,
+    -2px 0 #f4f6f1,
+    0 2px #f4f6f1,
+    0 -2px #f4f6f1,
+    4px 4px 0 #f4f6f1;
   text-transform: uppercase;
 }
 
@@ -210,10 +211,11 @@ h3 {
   margin: 0;
   color: #f7f7f7;
   font-family: "Permanent Marker", "Comic Sans MS", cursive;
-  font-size: clamp(30px, 5vw, 58px);
+  font-size: clamp(30px, 5vw, 54px);
   font-weight: 400;
   line-height: 1.15;
   letter-spacing: 0;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.6);
 }
 
 .work-section {
@@ -228,23 +230,24 @@ h3 {
 
 .work-card {
   min-height: 190px;
-  padding: 24px;
+  padding: 28px;
   background: #151516;
-  border: 1px solid #dfe7ff;
+  border: 1px solid #3b403d;
   border-radius: 8px;
 }
 
 .work-card h3 {
   color: #f2f2f2;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  font-size: clamp(44px, 8vw, 92px);
+  font-size: clamp(34px, 5.2vw, 62px);
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.08;
   letter-spacing: 0;
+  white-space: nowrap;
 }
 
 .work-card p {
-  color: #b8beb9;
+  color: #c7cec8;
   margin-bottom: 0;
   font-size: 16px;
 }
